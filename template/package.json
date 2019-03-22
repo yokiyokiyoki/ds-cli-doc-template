@@ -1,0 +1,14 @@
+{
+  "name": "doc-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.bash"
+  },
+  "dependencies": {
+    "vuepress": "^1.0.0-alpha.44"
+  }
+}
