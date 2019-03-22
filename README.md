@@ -1,9 +1,34 @@
-## 开发
+<p align="center"><b>ds-cli脚手架的doc文档</b></p>
 
-- cd template && yarn && yarn docs:dev
+# 目录
 
-## 目录说明
+- [快速入门](#快速入门)
+  - [安装](#安装)
+  - [用法](#用法)
+- [感谢](#感谢)
+- [License](#license)
+
+
+
+## 快速入门
+
+### 开发
+
 ```bash
+$ cd template              # 进入template目录
+$ yarn                     # install
+$ yarn docs:dev            # 运行                 
+```
+
+### 下载
+```bash
+$ yarn global add @datastory/ds-cli        
+$ ds init doc <app-name>
+```
+
+目录说明:
+
+```
 ├── docs 
 │   ├── .vuepress （用于存放全局的配置、组件、静态资源等，可选）
 │   │   ├── components (该目录中的 Vue 组件将会被自动注册为全局组件，可选)
@@ -26,17 +51,32 @@
 │ 
 └── package.json
 ```
-## 使用Vue组件
 
-- components文件夹新建
+
+### 用法
+
+#### 使用vue组件
+
+- components文件夹新建组件，在其他地方引用会变成异步组件导入
 
 #### 使用样式
 
-- yarn add less less-loader -D
+```bash
+$  yarn add less less-loader -D  #使用less
+```
 ```javascript
 <style lang="less">
   .title
     font-size: 20px
 </style>
 ```
+
+
+## 感谢
+
+- [vuepress](https://github.com/vuejs/vuepress)
+
+## License
+
+- [MIT](https://opensource.org/licenses/MIT)
 
