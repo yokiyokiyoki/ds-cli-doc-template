@@ -3,6 +3,7 @@
 - cd template && yarn && yarn docs:dev
 
 ## 目录说明
+```bash
 ├── docs 
 │   ├── .vuepress （用于存放全局的配置、组件、静态资源等，可选）
 │   │   ├── components (该目录中的 Vue 组件将会被自动注册为全局组件，可选)
@@ -24,7 +25,7 @@
 │   └── config.md(页面路由地址为/config.html)
 │ 
 └── package.json
-
+```
 ## 使用Vue组件
 
 - components文件夹新建
