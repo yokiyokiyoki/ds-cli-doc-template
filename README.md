@@ -1,4 +1,4 @@
-<p align="center"><b>ds-cli脚手架的doc文档</b></p>
+<h2 align="center"><b>ds-cli脚手架的doc文档</b></h2>
 
 # 目录
 
