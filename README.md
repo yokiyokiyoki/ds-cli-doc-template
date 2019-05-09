@@ -3,11 +3,11 @@
 # 目录
 
 - [快速入门](#快速入门)
+  - [开发](#开发)
   - [安装](#安装)
   - [用法](#用法)
 - [感谢](#感谢)
 - [License](#license)
-
 
 
 ## 快速入门
@@ -20,7 +20,7 @@ $ yarn                     # install
 $ yarn docs:dev            # 运行                 
 ```
 
-### 下载
+### 安装
 ```bash
 $ yarn global add @datastory/ds-cli        
 $ ds init doc <app-name>

@@ -65,7 +65,7 @@ function getGuideSidebar () {
       title: "指南",
       collapsable: false,
       children: [
-        ['','h1主标题'],
+        '','h1主标题',
       ]
     },
     {
